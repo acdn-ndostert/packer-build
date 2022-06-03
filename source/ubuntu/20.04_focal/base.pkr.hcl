@@ -241,12 +241,12 @@ variable "timezone" {
 
 variable "user_data_location" {
   type    = string
-  default = "template/ubuntu/20.04_focal/user-data"
+  default = "user-data"
 }
 
 variable "vagrantfile_template" {
   type    = string
-  default = "template/ubuntu/20.04_focal/vagrant.rb.j2"
+  default = "vagrant.rb.j2"
 }
 
 variable "version" {

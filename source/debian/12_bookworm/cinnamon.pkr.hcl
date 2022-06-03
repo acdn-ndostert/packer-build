@@ -151,7 +151,7 @@ variable "packer_cache_dir" {
 
 variable "preseed_file" {
   type    = string
-  default = "template/debian/12_bookworm/cinnamon.preseed"
+  default = "cinnamon.preseed"
 }
 
 variable "qemu_binary" {
@@ -246,7 +246,7 @@ variable "timezone" {
 
 variable "vagrantfile_template" {
   type    = string
-  default = "template/debian/12_bookworm/vagrant.rb.j2"
+  default = "vagrant.rb.j2"
 }
 
 variable "version" {
